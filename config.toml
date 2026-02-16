@@ -6,25 +6,13 @@ patches-version = "dev"
 cli-source = "MorpheApp/morphe-cli"
 cli-version = "dev"
 
-[YouTube-Extended]
-app-name = "YouTube"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
-version = "20.21.37"
-# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Custom header for YouTube'"
-included-patches = "'Visual preferences icons for YouTube' 'Return YouTube Username'"
-patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=#FF121212 -OlightThemeBackgroundColor=#FFF9F9F9 --striplibs=arm64-v8a,armeabi-v7a"
-
 [YouTube-Music-Extended]
 app-name = "YouTube Music"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
 arch = "both"
 version = "8.30.54"
-# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+# uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
